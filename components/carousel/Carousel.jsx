@@ -16,7 +16,13 @@ const CarouselContainer = ({ ownerId }) => {
     const getMenu = async () => {
       try {
         const res = await axios.get(
-          `https://take-away-backend.vercel.app/restaurant/restaurantDetails/${ownerId}`
+          `https://take-away-backend.vercel.app/restaurant/restaurantDetails/${ownerId}`,
+          {
+            headers: {
+              "Access-Control-Allow-Origin": "*",
+              "Content-Type": "application/json",
+            },
+          }
         );
 
         setBanner(res.data.banners);
