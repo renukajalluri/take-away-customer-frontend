@@ -1,0 +1,64 @@
+.cart{
+    padding: 16px;
+    width: 90%;
+    margin: auto;
+}
+
+.btn {
+    text-align: end;
+  margin-top: 30px;
+  margin-right: 160px;
+  
+}
+
+.btn button{
+    background-color: #571313;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #571313;
+}
+
+.box{
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #D4CDCD;
+    display: flex;
+    justify-content: space-between;
+}
+.resto h5{
+    font-weight: 800;
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-item .quantity{
+    border: 1px solid black;
+    padding: 0 3px;
+} 
+
+.in-de button{
+    margin: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+.total{
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount{
+    color: #571313;
+}

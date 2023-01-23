@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo Script Swash Caps');
+
+.landing-page{
+    font-family:OFL Sorts Mill Goudy TT ;
+    height: 100vh;
+}
+.banner{
+    background: url("/customer_banner.png");
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0; 
+    background-size: 100%;
+    background-repeat:no-repeat;
+   
+}
+
+
+.username{
+    /* transition: width .3s; */
+    font-size:17px !important;
+    margin-top:13px !important;
+}
+.username::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #F9EFAB;
+    transition: width .3s;
+}
+.username:hover::after{
+    width: 40%;
+    color: #F9EFAB;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    color: white;
+}
+
+.orders{
+    margin: 9px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white !important;
+    /* background-color: white; */
+    padding: 3px;
+    
+
+}
+
+
+.logout{
+    margin: 9px;
+
+}
+
+.logout button{
+    border: none;
+    background-color: white;
+    font-family:OFL Sorts Mill Goudy TT ;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.icon{
+    color: black !important;
+}
+.icon  img{
+    color: white !important;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container h1{
+    font-family: Oleo Script Swash Caps;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 35px !important;
+}
+
+.container p{
+    
+    color: white;
+    text-align: center;
+}
+
+.container input{
+   width:400px;
+   /* background-color:; */
+   max-width: 100%;
+   height: 30px;
+   outline: none;
+   margin-left: 40px;
+   padding: 5px;
+}
+
+.container input::placeholder{
+    color: #C6BFBF;
+}
+
+.top-resto{
+    margin-top: 30px;
+    margin: 30px auto;
+}
+.top-resto h1{
+    margin: 40px 150px;
+}
+.grid{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,35%);
+    gap:250px;
+    grid-template-rows: 0px;
+}
+
+.card{
+    
+    max-width: 85%;
+    border: 1px solid #F8EFEF;
+    height:163px;
+}
+
+
+.item-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+.itemName{
+    margin-top: 3px;
+    color: black !important;
+    font-weight: 600;
+}
+
+.rating{
+    /* margin-top: -6px; */
+  font-size: 15px;
+  
+}
+
+.rating-comp{
+    margin-top: 5px;
+
+}
+
+.opened{
+    padding-top: 8px;
+    color: green;
+} 
+
+.flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-fields{
+
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    justify-content: center;
+    text-align: start;
+    /* padding: 5px; */
+}
+
+.distance{
+    padding-top: 8px;
+}
+
+.item-img img{
+    width: 200px;
+    max-width: 90%;
+    max-height: 300px;
+    height: 163px;
+
+}
+
+
+

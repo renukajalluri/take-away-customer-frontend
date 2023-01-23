@@ -1,0 +1,89 @@
+.order{
+    height: 110vh;
+}
+
+.order h1{
+    margin: 50px 70px;
+}
+
+.address-form{
+    display: grid;
+    margin-top: -50px;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 30px;
+    grid-template-columns: repeat(2,45%);
+}
+.form-control{
+    margin-left: 100px;
+    margin: 20px;
+    width: 500px;
+}
+
+.form-control input{
+    border: 1px solid #DDD2D2;
+    height: 42px;
+     width: 100%;
+}
+
+.form-control input::placeholder{
+    color: #A89D9D;
+}
+
+.form-control label{
+  display: block;
+}
+
+
+.method input{
+    margin-left: 100px;
+    padding: 15px;
+}
+
+.method label{
+    margin-left: 5px;
+}
+.methodInput{
+    margin-top: -30px;
+}
+
+.flex{
+    /* margin-top:; */
+    width: 40%;
+    display: flex;
+    margin-left:  100px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.flex h2{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.time-input h2{
+    font-size: 15px;
+    font-weight: 400;
+    display: inline;
+    margin-left: 5px;
+}
+.time-input input{
+    outline: none;
+    margin: 4px;
+    width: 20%;
+}
+
+.btn {
+    width: 17%;
+   text-align: end;
+   margin-top: 35px;
+   
+}
+.btn button{
+    width: 200px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 5px;
+}
